@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment01">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewFrag01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pantalla Inicio"
+            android:layout_marginTop="150dp"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btnFragment01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Fragment01" />
+
+        <Button
+            android:id="@+id/btnFragment02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment02" />
+
+    </LinearLayout>
+
+</FrameLayout>
